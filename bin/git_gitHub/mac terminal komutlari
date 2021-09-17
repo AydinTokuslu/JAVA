@@ -1,0 +1,67 @@
+
+
+1) C:\>ls komutu ---> Butun klasorleri gosterir (C'nin icinde bunlar)
+
+2) C:\>cd users ---> Diger klasorlere gecebiliyoruz(users klasorunun icine giriyor)
+
+3) C:\>ls ---> users klasorunun icinde hangi klasor oldugunu gormek istiyorum
+   ! Hangi klasore girmek istiyorsak ayni islemleri tekrarliyoruz
+
+4) cd .. ---> Bir onceki klasore gidiyor
+
+5) cd / ---> En basa gidiyor
+
+6) clear ---> Ekrani temizliyor
+
+7) KLASOR OLUSTURMA
+
+   7.a) C:\>mkdir klasorismi -> ENTER
+   
+   7.b) Masaustunde klasor olusturma
+      - C:\>cd users (users klasorune giriyoruz)
+      - C:\Users>cd user (user klasorune giriyoruz)
+      - C:\Users\user>cd desktop (masaustune gidiyoruz)
+      - C:\Users\user\Desktop>mkdir test1 (masaustunde test1 klasorunu olusturuyoruz)
+      - C:\Users\user\Desktop>cd test1 (olusturdugumuz test1 klasorunun icine giriyoruz)
+      - C:\Users\user\Desktop\test1> (test1 klasorunun icindeyiz)
+     
+      - C:\Users\user\Desktop\test1>mkdir test2 (test1 klasorunun icinde test2 klasoru olusturduk)
+      - C:\Users\user\Desktop\test1>mkdir test3 (test1 klasorunun icinde test3 klasoru olusturduk)
+      - C:\Users\user\Desktop\test1>mkdir test4 (test1 klasorunun icinde test4 klasoru olusturduk)
+      - C:\Users\user\Desktop\test1>dir (ls ile klasorun icine bakiyoruz test2-test3 ve test4 klasorleri gozukuyor)
+
+8) KLASOR SILME
+
+   8.a) C:\Users\user\Desktop\test1>rmdir test4 ( test1'de olusturdugumuz test4 klasorunu sildik)
+   
+   Peki sildigimizi nasil anlayacagiz?
+   8.b) C:\Users\user\Desktop\test1>dir ( ls ile silip silmedigini gorebiliriz)
+   
+
+
+
+git kurulumu için          ===> https://git-scm.com/downloads 
+                    ===>(install için tüm aşamalarda next işaretlenecek, değişiklik yapılmayacak.)
+======================================================================================================================
+Cmd komutları
+----------------------------------------------------------------------------------------------------------------------
+cd                  ---> change directory
+cd ..                   ===> bir dosya geri gider
+cd .                    ===> mevcut dosyayı gösterir
+cd klasörismi              ===> klasörismi dosyasına gelir.
+cls                     ===> tüm ekranı temziler.
+dir                     ===> dosyaları liste halinde gösterir.
+cd xamp-u*              ===> uzun uzun dosya adını girmemek için * sonrasını uygun olana tamamlar ve o dosyaya gider.
+cd\                 ===> en üst klasöre gider. C:\>
+C:\>d:                   ===> D:\> klasörüne gider.
+mkdir                   ===> klasör oluşturma (make directory)
+rmdir                   ===> klasör silme (remove directory)
+======================================================================================================================
+git                     ===> localdeki version control systems(yedeklemeyi yerel pc de tutar.)
+github                  ===> cloud git'in remote hali
+Yerel VKS               ===> local bilgisayardaki versiyon kontrol sistemi
+Merkezi VKS             ===> merkezi serverdaki versiyon kontrol sistemi | sıkıntısı: serverda arıza olunca proje durur.
+Dağıtık VKS              ===> projede çalışanlar ve server'de tutulan VKS'dir. | avantajı her pc veya server yedekleri tutar.
+git --version               ===> git versionunu gösterir. ayrıca pc de var olup olmadığını anlarız.
+git config --global color.ui true   ===> git komutlarını yazdığımızda sonuçları renkli renkli gösterecek
+repo(sitory)                ===> depo (her proje için ayrı ayrı VKS oluşturulabildiği gibi hepsini 1 repoda tutmakta mümkümdür.)

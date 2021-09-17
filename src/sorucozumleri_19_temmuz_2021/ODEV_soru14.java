@@ -1,0 +1,49 @@
+package sorucozumleri_19_temmuz_2021;
+
+import java.util.Scanner;
+
+public class ODEV_soru14 {
+
+	public static void main(String[] args) {
+		/*Kullanıcıdan bir harf girmesini isteyiniz. Girilen harf sesli ise Sesli harf olduğunu,
+	    değilse sessiz harf olduğunu ekrana yazdırsın. Girdiği değer harf değilse yada
+	            1 karakterden fazla ise hata mesajı göstersin. (Test girilen harfi büyük yada küçüklüğüne duyarlıdır.)
+	    Sesli harfler: a,e,i,o,u
+	    Test Data:
+	    a
+	    Beklenen Çıktı:
+	    a harfi sesli harfdir.
+	    Test Data:
+	    d
+	    Beklenen Çıktı:
+	    d harfi sesiz harftir.
+	    Test Data:
+	    we  yada %
+	    Beklenen Çıktı:
+	    Yanlis karakter girdiniz!
+	     */
+	   
+
+	        Scanner scan = new Scanner(System.in);
+
+	        System.out.print("harf giriniz: ");
+	        String kelime = scan.nextLine();
+
+	        String sesliHarf = "aeuoiAEUOI";
+	        if (kelime.length()==1) {
+
+
+	            for (int i = 0; i <= sesliHarf.length(); i++) {
+	                if (kelime.charAt(0) == sesliHarf.charAt(i)) {
+	                    System.out.println("sesli");
+	                    break;
+	                } else {
+	                    System.out.println("sessiz");
+	                    break;
+	                }
+	            }
+	        }else System.out.println("Yanlis karakter girdiniz!!!");
+
+	}
+
+}

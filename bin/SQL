@@ -1,0 +1,17 @@
+Oracle vs MySQL
+tarafından yapılmış ve MySQL çevrimiçi veya offline olmasına rağmen bugün kullanılan en popüler ilişkisel veritabanlarından biridir. İkisi de Oracle Corporation tarafından hazırlanıyor, bu nedenle bir çok kişi ikisinin arasındaki farkları soruyor. Oracle ve MySQL arasındaki temel fark, Oracle'ın MySQL'den çok daha güçlü bir yazılım olması nedeniyle yetenekleridir. Satır içi görünümler, rol tabanlı güvenlik, gelişmiş çoğaltma ve daha pek çok şey elde edersiniz. Oracle'ın MySQL üzerinde sahip olduğu birkaç temel özellik aşağıda listelenmiştir.
+
+Oracle'ın ilk büyük avantajı, büyük işlem yüklerini işlemek ve performansı optimize etmek için büyük veritabanlarını birden fazla sunucuya dağıtma yeteneğidir. MySQL, tek bir veritabanı ile sınırlıdır ve bu nedenle, her gün milyonlarca kez erişilen çok büyük veritabanları için uygun değildir. MySQL'in bir başka kısıtlaması, veritabanını bir önceki haline geri getirmeye yardımcı olan kaydetme noktalarının olmamasıdır. MySQL, COMMIT ve ROLLBACK deyimleri ile sınırlıdır.
+Oracle ayrıca, veritabanında bir yordam aracılığıyla gömülü olan programların oluşturulmasını da desteklemektedir. Bu programlar çok güçlüdür; bağımsız olarak yürütülebilir veya veritabanında meydana gelen bazı olaylar tarafından tetiklenebilir.
+Yeteneklerin farklılıkları nedeniyle Oracle, kapsamlı yeteneklerinin iyi olduğu büyük ölçekli dağıtımlar için daha uygundur. Oracle'ın tek dezavantajı, yazılımı kullanmak için gereken lisanslama maliyetleridir. Bu maliyetler genellikle sıradan web yayıncılarının ve hatta bazı orta ölçekli işletmelerin erişiminin ötesinde fahiş bir durumdur. Bu nedenle, Oracle genellikle büyük şirketlerle sınırlıdır. Öte yandan, MySQL, bir ilişkisel veritabanının temel çekirdek işlevlerini ücretsiz olarak elde etmek için kolay bir yol sağlar. MySQL, GNU GPL lisansıyla sağlanır; bu lisans, temel olarak, aynı lisans kapsamında paylaşılan başka herhangi bir eserin paylaşıldığı sürece herkesin kullanabileceği anlamına gelir.
+
+Özet:
+
+1. Oracle, MySQL'den daha güçlüdür. Oracle, dağıtılmış veritabanlarını desteklerken MySQL,
+
+3 değildir. Oracle, kaydetme noktalarını desteklerken MySQL,
+
+4 değildir. 
+5. MySQL, haricinde Oracle veritabanındaki programlara izin verir. Oracle, kurumsal dağıtımlar için uygundur; MySQL küçük ve orta ölçekli
+
+6 için uygundur. Oracle, MySQL'de olmayan bir lisans ücreti ödemenizi gerektirir

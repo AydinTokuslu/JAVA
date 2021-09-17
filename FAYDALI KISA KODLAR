@@ -1,0 +1,10 @@
+
+
+boolean ilkHarfKont = sifre.charAt(0)>='A' && sifre.charAt(0)<='Z' ;
+A'den Z'ye kadar harf arama
+
+boolean ilkHarfKont = sifre.charAt(0)>='a' && sifre.charAt(0)<='z' ;
+a'den z'ye kadar harf arama
+
+boolean sonHarfKontrol = sifre.charAt(sifre.length()-1)>='a' && 
+				sifre.charAt(sifre.length()-1)<='z'

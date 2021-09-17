@@ -1,0 +1,14 @@
+package day28_Temmuz_30_2021_dersi_staticBlock_passByValue;
+
+public class C02_StaticBlocks02 {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println(C01_StaticBlocks.sayi);
+        // local'de static variable olusturulamaz
+        
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package Proje_kutuOyunu_VarmisinYokmusun;
+
+public class Kutu {
+
+	private int kutuNumarasi;
+	private int paraMiktari;
+	
+	public Kutu(int sayi1,int sayi2) {
+		
+		this.kutuNumarasi=sayi1;   //sayi1 kutunumarası     sayı2  paramiktari
+		this.paraMiktari=sayi2;	
+		
+	}
+
+	public int getKutuNumarasi() {
+		return kutuNumarasi;
+	}
+
+	public int getParaMiktari() {
+		return paraMiktari;
+	}
+	
+}
